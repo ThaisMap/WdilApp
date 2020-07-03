@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "819861619036",
+    "firebase_url": "https://wdil-af05e.firebaseio.com",
+    "project_id": "wdil-af05e",
+    "storage_bucket": "wdil-af05e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:819861619036:android:dd6822bb4cd08a9fb90199",
+        "android_client_info": {
+          "package_name": "com.wdilapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "819861619036-4dc4d9fhb0i85ggp32lqkeqlbtpav9ee.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEf-HJGiP7vaLgz3ED5d0zlVVVki3B_N4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "819861619036-4dc4d9fhb0i85ggp32lqkeqlbtpav9ee.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
