@@ -62,3 +62,4 @@ buck-out/
 android/build
 android/app/build
 android/.gradle/
+WdilAppWorkspace.code-workspace
