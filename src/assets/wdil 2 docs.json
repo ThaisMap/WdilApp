@@ -1,0 +1,103 @@
+{
+	"users": {
+		"1": {
+			"name": "Thais Maria",
+			"email": "thais.marpi@gmail.com",
+			"isPremium": true,
+			"categories": {
+				"1": {
+					"name": "House chores",
+					"color": "#ff0000"
+				},
+				"2": {
+					"name": "Bad stuff",
+					"color": "#000000"
+				}
+			}
+		},
+		"2": {
+			"name": "Hudson Mendonca",
+			"email": "hudsonblz@gmail.com",
+			"isPremium": true,
+			"categories": {
+				"1": {
+					"name": "Car",
+					"color": "#ff0000"				
+				}
+			}
+		}
+
+	},
+	"activities": {
+		"1": {
+			"name": "Clean fridge",
+			"userId": "1",
+			"categoryId": "1",
+			"categoryName": "House chores",
+			"notificate": true,
+			"notificationDays": 60,
+			"dates": {
+				"01-01-2020": "Who cleans the fridge at january 1st?",
+				"01-03-2020": "",
+				"01-06-2020": "Nasty fridge"
+			}
+		},
+		"2": {
+			"name": "Check the gutter",
+			"userId": "1",
+			"categoryId": "1",
+			"categoryName": "House chores",
+			"notificate": true,
+			"notificationDays": 180,
+			"dates": {
+				"01-10-2019": "It was clean"
+			}
+		},
+		"3": {
+			"name": "Had a fever",
+			"userId": "1",
+			"categoryId": "2",
+			"categoryName": "Bad stuff",
+			"notificate": false,
+			"notificationDays": 0,
+			"dates": {
+				"02-01-2020": "Maybe I shouldn't have cleaned the fridge"
+			}
+		},
+		"4": {
+			"name": "See a spider",
+			"userId": "1",
+			"categoryId": "2",
+			"categoryName": "Bad stuff",
+			"notificate": false,
+			"notificationDays": 0,
+			"dates": {
+				"15-03-2020": "It was a huge modafocker"
+			}
+		},
+		"5": {
+			"name": "Change oil",
+			"userId": "2",
+			"categoryId": "1",
+			"categoryName": "Car",
+			"notificate": true,
+			"notificationDays": 120,
+			"dates": {
+				"01-02-2020": "60kkm",
+				"01-06-2020": "100kkm"
+			}
+		},
+		"6": {
+			"name": "Replace headlight",
+			"userId": "2",
+			"categoryId": "1",
+			"categoryName": "Car",
+			"notificate": false,
+			"notificationDays": 0,
+			"dates": {
+				"01-02-2020": "Main bulb, driver side",
+				"01-04-2020": "Main bulb, passenger side"
+			}
+		}
+	}
+}
