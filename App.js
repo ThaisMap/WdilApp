@@ -2,23 +2,30 @@ import 'react-native-gesture-handler';
 import React from 'react';
 import { NavigationContainer } from "@react-navigation/native";
 import { createDrawerNavigator } from "@react-navigation/drawer";
-import { StyleSheet, View, Text, Button } from 'react-native';
+import { StyleSheet, View  } from 'react-native';
+
+import { Headline, Button } from 'react-native-paper';
 
 function LoveScreen({ navigation }) {
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-      <Button
-        onPress={() => navigation.navigate('Amazing')}
-        title="We love each other"
-      />
+      <Headline>I</Headline>
+      <Button icon="heart" mode="contained" onPress={() => navigation.navigate('Sunshine')}> lava
+      </Button>
+      <Headline> YOU </Headline>
+       
     </View>
   );
 }
 
-function AmazingScreen({ navigation }) {
+
+function SunshineScreen({ navigation }) {
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-      <Button onPress={() => navigation.goBack()} title="We are amazing toghether" />
+      <Headline>You are my</Headline> 
+      <Button icon="weather-sunny" mode="contained" onPress={() => navigation.goBack()}>
+          sunshine
+      </Button> 
     </View>
   );
 }
@@ -30,7 +37,7 @@ export default function App() {
     <NavigationContainer>
       <Drawer.Navigator initialRouteName="Love">
         <Drawer.Screen name="Love" component={LoveScreen}/>
-        <Drawer.Screen name="Amazing" component={AmazingScreen}/>
+        <Drawer.Screen name="Sunshine" component={SunshineScreen}/>
     </Drawer.Navigator>
     </NavigationContainer>
   );
