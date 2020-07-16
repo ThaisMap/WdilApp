@@ -3,6 +3,7 @@ import React from 'react';
 import {createDrawerNavigator} from '@react-navigation/drawer';
 import {NavigationContainer} from '@react-navigation/native';
 import {LoveScreen, SunshineScreen} from './pages/exemplo';
+import {LoginScreen} from './pages/exemplo';
 
 const Drawer = createDrawerNavigator();
 
@@ -12,6 +13,7 @@ export default function Routes() {
       <Drawer.Navigator initialRouteName="Love">
         <Drawer.Screen name="Love" component={LoveScreen} />
         <Drawer.Screen name="Sunshine" component={SunshineScreen} />
+        <Drawer.Screen name="Login" component={LoginScreen} />
       </Drawer.Navigator>
     </NavigationContainer>
   );
