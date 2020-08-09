@@ -1009,6 +1009,11 @@
     eslint-plugin-react-native "3.6.0"
     prettier "1.16.4"
 
+"@react-native-community/google-signin@^4.0.3":
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/@react-native-community/google-signin/-/google-signin-4.0.3.tgz#66fbdd469e5895ec787224334d480c1c867240e8"
+  integrity sha512-0RyMHAPTOejxXuHkcrVLJ9Co1hxG/b1shmtn29QSjZ9W8oLj23gyLhJI4jjca389jToVjr2HsXsDXfNU4CA2Uw==
+
 "@react-native-community/masked-view@^0.1.10":
   version "0.1.10"
   resolved "https://registry.yarnpkg.com/@react-native-community/masked-view/-/masked-view-0.1.10.tgz#5dda643e19e587793bc2034dd9bf7398ad43d401"
@@ -1024,19 +1029,19 @@
   resolved "https://registry.yarnpkg.com/@react-native-firebase/app-types/-/app-types-6.7.2.tgz#d2e1530af5702e00578914b41468898c10d3289c"
   integrity sha512-pIwc6e0ZINw6PJqNVsAxzOVJUDg6au2TdulY+ZOYQ11SPDs5I2n9likoGrElPmJjajT4s9h87uz/6PWP2k9PxQ==
 
-"@react-native-firebase/app@^8.0.1":
-  version "8.0.1"
-  resolved "https://registry.yarnpkg.com/@react-native-firebase/app/-/app-8.0.1.tgz#3030094cc0aa2a763feef2291aebd8c852e1a693"
-  integrity sha512-7TN6lGMNHbEAno2PH1BVGvhSz61o3Goq1LCI/1Bac7G8cPj8srNyAysOtzD/VkJmlEJ2UteK5MZKY2jckEsKAg==
+"@react-native-firebase/app@^8.2.0":
+  version "8.2.0"
+  resolved "https://registry.yarnpkg.com/@react-native-firebase/app/-/app-8.2.0.tgz#28db1958c8bd8028503b4d0a68a31a7c4caf61cc"
+  integrity sha512-V3s87BlDIyuhtK/1w+vwKdY5AlOCCBXovlorZU1wiyDH8Q942Cjxcx9tBc59+TLWqMYrYyFGAnAJxnIw3QzmmQ==
   dependencies:
     "@react-native-firebase/app-types" "6.7.2"
     opencollective-postinstall "^2.0.1"
     superstruct "^0.6.2"
 
-"@react-native-firebase/auth@^8.0.10":
-  version "8.0.10"
-  resolved "https://registry.yarnpkg.com/@react-native-firebase/auth/-/auth-8.0.10.tgz#494814bf9a3fcb4d881046a13ea3b55107bb029a"
-  integrity sha512-pbqERiQyxB+x+1vrhKTiSbFW/FO47F5JeqYQUVz3tN7Gu8DgypIQwelnnytnJBvMsePABvsum6BmgV76tjwPeA==
+"@react-native-firebase/auth@^8.2.0":
+  version "8.2.0"
+  resolved "https://registry.yarnpkg.com/@react-native-firebase/auth/-/auth-8.2.0.tgz#dc64b2fb1138a713ea15ab1ed4cffd273f1f70ed"
+  integrity sha512-zsLL2hSrhsIhmtf3/VGxbHYPlBvfULd8mK1mObKuSIZlMW6gpokyIaAjfuQ0x6r7NWYjtcPP4QBX95kk3Ztutg==
 
 "@react-native-firebase/firestore@^7.3.0":
   version "7.3.0"
@@ -5102,6 +5107,11 @@ react-is@^16.12.0, react-is@^16.13.0, react-is@^16.7.0, react-is@^16.8.1, react-
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
+
+react-native-firebase-auth-ui@^1.0.11:
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/react-native-firebase-auth-ui/-/react-native-firebase-auth-ui-1.0.11.tgz#41e92395d24c6b64e08f16e28bcec54c1523d5a9"
+  integrity sha512-OT/wDJXF7A2lnUynYliRjHyvSK74FxEI8wCvnBbwt4DG8C9WeP2Ve+GZGoIU1c/9N+EwsafmEyB2/LbQBpAEsA==
 
 react-native-gesture-handler@^1.6.1:
   version "1.6.1"
